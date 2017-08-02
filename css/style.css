@@ -119,6 +119,19 @@ body{
 	animation: fadein 4s;
 }
 
+.text-overlay h5
+{
+  font-style: italic;
+  font-size: 2.2rem;
+  white-space: nowrap;
+  color: white;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+		-moz-animation: fadein 7s; /* Firefox < 16 */
+			-ms-animation: fadein 7s; /* Internet Explorer */
+				-o-animation: fadein 7s; /* Opera < 12.1 */
+	animation: fadein 4s;
+}
+
 .text-overlay h2:hover {
 	color: grey;
 }
@@ -128,6 +141,10 @@ body{
 }
 
 .text-overlay h4:hover {
+	color: grey;
+}
+
+.text-overlay h5:hover {
 	color: grey;
 }
 
