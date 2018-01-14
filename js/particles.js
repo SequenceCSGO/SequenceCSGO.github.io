@@ -113,7 +113,7 @@ var pJS = function(tag_id, params){
           duration: 0.4
         },
         repulse:{
-          distance: 120,
+          distance: 200,
           duration: 0.4
         },
         push:{
