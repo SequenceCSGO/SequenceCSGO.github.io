@@ -50,7 +50,12 @@ li{list-style:none}
 html,body{ 
 	width:100%;
 	height:100%;
-	background:#111;
+	background: url("http://www.rap-up.com/app/uploads/2017/11/lil-peep-cross.jpg") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+;
 }
 
 html{
@@ -62,6 +67,7 @@ body{
   background-image: url("http://www.rap-up.com/app/uploads/2017/11/lil-peep-cross.jpg"), url("");
   background-color: #cccccc;
 }
+
 
 
 .text-overlay
